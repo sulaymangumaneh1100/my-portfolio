@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -46,68 +47,101 @@
 
         <!-- Education section -->
         <section id="education">
-            <h2 class="education">Education</h2>
-            <p class="p-education">A graduate science student at Nusrat High School. I have spent three years to end my
-                academic
-                years, earning
-                the best outstanding student in ICT and engineering.</p>
+            <div class="education">
+                <h2 class="sub-head">Education</h2>
+                <p>A graduate science student at Nusrat High School. I have spent three years to end
+                    my
+                    academic
+                    years, earning
+                    the best outstanding student in ICT and engineering.</p>
+            </div>
+
         </section>
 
         <!-- secrion for skills -->
         <section id="my-skills">
-            <h2 class="education">My Skills</h2>
-
-            <ol class="p-education">
-                <li class="sub-head">HTML:</li>
-                <P>I am very comfortable at writing contents of a page. </P>
-                <br>
-                <li class="sub-head">CSS:</li>
-                <p>I can write CSS rule which makes the page looks good.</p>
-                <br>
-                <li class="sub-head">PYTHON:</li>
-                <p>I do understand how to instruct a computer to perform tasks for me.</p>
-            </ol>
-            <strong class="skill-result">I have built some programs and webpages with these skills. You can find them at
-                <a href="#my-projects">View work.</a></strong>
-
-            <!-- section for projects -->
-            <section id="my-projects">
-                <h2 class="education">My projetcs</h2>
-                <br><br>
-                <ol>
-                    <li class="sub-head">A guessing game:</li>
-                    <p class="p-education">I have bulit a guessing game with python from scrach. The game took a secret
-                        number, start asking
-                        you to guess the number in attempts. The user is given numbers of attempts, the game breaks when
-                        the attempts are finished and give the user the secret number. If the user got the number within
-                        the attempts, the game congrats and display in how many attempts the number was guessed in.
-                        Below is the screenshot of the terminal.
-
-                    </p>
-                    <div class="screenshot"><img src="no-guesing.png" alt="a photo of the guessing game" height="300">
-                        <img src="1-no-guessing.png" alt="a photo of the guessing game" width="500" height="300">
+            <div class="skill">
+                <div class="skill-head"><span>My Skills</span></div>
+                <div class="skill-content">
+                    <div class="html">
+                        <p class="numbering-skill">1</p>
+                        <li>HTML:</li>
+                        <P>I am very comfortable at writing contents of a page. </P>
+                        <br>
                     </div>
-                    <br>
 
-                    <li class="sub-head">A shop calculator</li>
-                    <p class="p-education">I built a simple shop calculator. It's enable to display the shop menu and
-                        allows to choose an
-                        item. It ask for how many you buy and calculate the total amount. It then report at the end of
-                        the calculation. Below is a screenshot of the terminal.</p>
-                    <img src="shop-calc.png" alt="" width="600" height="500">
-                    <br><br>
-                    <li class="sub-head">A student grade checker</li>
-                    <p class="p-education">I built a program that can calculate and report the final grade of a student.
-                        It ask for
-                        students' name, how many subjects and score for each subject. It then, calculate the average.
-                        The final grade is based on the average. Below is the image of the terminal of the program.</p>
-                    <img src="student-grade.png" alt="">
-                </ol>
-            </section>
+                    <div class="css">
+                        <p class="numbering-skill">2</p>
+                        <li>CSS:</li>
+                        <p>I can write CSS rule which makes the page looks good.</p>
+                        <br>
+                    </div>
 
-            <!-- section for contact -->
-            <section id="contact-me">
-                <h2 class="sub-head" style="display: flex; justify-content: center;">Get to us</h2>
+                    <div class="python">
+                        <p class="numbering-skill">2</p>
+                        <li>PYTHON:</li>
+                        <p>I do understand how to instruct a computer to perform tasks for me.</p>
+                    </div>
+
+                </div>
+            </div>
+            <strong class="skill-result">I have built some programs and webpages with these skills. You can find
+                them at
+                <a href="#my-projects">View work.</a></strong>
+        </section>
+
+        <!-- section for projects -->
+        <section id="my-projects">
+
+            <h2 class="project-head">My projetcs</h2>
+            <br><br>
+            <ol>
+                <div class="project-content">
+                    <div class="guessing-game">
+                        <p class="numbering-project">1</p>
+                        <li>A guessing game:</li>
+                        <p class="p-education">I have bulit a guessing game with python from scrach. The game took a
+                            secret
+                            number, start asking
+                            you to guess the number in attempts. The user is given numbers of attempts, the game breaks
+                            when
+                            the attempts are finished and give the user the secret number. If the user got the number
+                            within
+                            the attempts, the game congrats and display in how many attempts the number was guessed in.
+
+                    </div>
+                    <div class="shop-calculator">
+                        <p class="numbering-project">2</p>
+                        <li class="sub-head">A shop calculator</li>
+                        <p class="p-education">I built a simple shop calculator. It's enable to display the shop menu
+                            and
+                            allows to choose an
+                            item. It ask for how many you buy and calculate the total amount. It then report at the end
+                            of
+                            the calculation.</p>
+                    </div>
+
+                    <div class="student-grade">
+                        <p class="numbering-project">3</p>
+                        <li>A student grade checker</li>
+                        <p class="p-education">I built a program that can calculate and report the final grade of a
+                            student.
+                            It ask for
+                            students' name, how many subjects and score for each subject. It then, calculate the
+                            average.
+                            The final grade is based on the average.
+                        </p>
+            </ol>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- section for contact -->
+
+        <section id="contact-me">
+            <h2 class="form-head">Get to us</h2>
+            <div class="form">
                 <form action="">
                     <label for="name">Full Name:</label>
                     <input type="text" name="name" id="name">
@@ -124,8 +158,11 @@
                     <button type="submit">Submit</button>
                     <button type="reset">Reset</button>
                 </form>
+            </div>
 
-            </section>
+            </div>
+
+        </section>
 
     </main>
     <footer>
